@@ -9,14 +9,14 @@ import Cclick from './components/Cclick'
 import Eventbind from './components/Eventbind'
 import Parentcompo from './components/Parentcompo'
 import Welcome from './components/Welcome'
+import Usergreet from './components/Usergreet';
+import NameList from './components/NameList';
 function App() {
   return (
     <div className="App">
      <Great name="haii"></Great>
-     <Fclick></Fclick>
-      <Counter/>
-      <Eventbind></Eventbind>
-      <Parentcompo></Parentcompo>
+      <Usergreet></Usergreet>
+      <NameList></NameList>
     </div>
   );
 }
