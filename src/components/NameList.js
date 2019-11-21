@@ -1,6 +1,7 @@
 import React from 'react'
 //List rendering
 function NameList() {
+    const person=['bruce','hai','jhsjf']
     const names=[        {
             id:1,
             name:'nagababu',
@@ -22,7 +23,8 @@ function NameList() {
         age:212
         }
     ]
-    const names1=names.map(x=><div><h1>{x.name}</h1><h2>{x.age}</h2></div>)
+    //when using lists we must pass unique key to the list and the passed key cannot be accesed in the child component.
+    const names1=person.map((x,index)=><h1 key={x}>{index},{x}</h1>)
     return (
         <div>
         {names1}
