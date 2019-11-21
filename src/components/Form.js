@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import { timingSafeEqual } from 'crypto'
-
+//Component Life cylce Binding
+//usig the onchange event handler and the set state menthod react can control the 
+//form components.
 class Form extends Component {
     constructor(props)
     {
