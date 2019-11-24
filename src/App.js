@@ -15,14 +15,13 @@ import Stylesheet from './components/Stylesheet'
 import './components/appStyle.css'
 import Form from './components/Form'
 import style from './components/appStyle.module.css'
+import Fragmentdemo from './components/Fragmentdemo'
+import Table from './components/Table';
+import Parentcom from './components/Parentcom'
 function App() {
   return (
     <div className="App">
-      <h1 class='error'>final error</h1>
-      <h2 class={style.sucess}>jsbjdakjgKJAGNDJK</h2>
-     <Great name="haii"></Great>
-      <Form></Form>
-      <Stylesheet cond={true}></Stylesheet>
+     <Parentcom></Parentcom>
     </div>
   );
 }
