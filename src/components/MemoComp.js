@@ -4,7 +4,7 @@ function MemoComp({name}) {
     console.log("memo comp")
     return (
         <div>
-            Memo component {name}
+            Memo component for functinal comp  {name}
             }
         </div>
     )
