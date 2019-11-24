@@ -18,10 +18,13 @@ import style from './components/appStyle.module.css'
 import Fragmentdemo from './components/Fragmentdemo'
 import Table from './components/Table';
 import Parentcom from './components/Parentcom'
+import RefsDemo from './components/RefsDemo'
+import FocusInput from './components/FocusInput'
+import ForwadPar from './components/ForwadPar'
 function App() {
   return (
     <div className="App">
-     <Parentcom></Parentcom>
+       <ForwadPar></ForwadPar>
     </div>
   );
 }
