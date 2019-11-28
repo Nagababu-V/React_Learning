@@ -21,10 +21,19 @@ import Parentcom from './components/Parentcom'
 import RefsDemo from './components/RefsDemo'
 import FocusInput from './components/FocusInput'
 import ForwadPar from './components/ForwadPar'
+import PortalDemo from './components/PortalDemo';
+import Login from './components/Login';
+import Hero from './components/Hero'
+import Errorb from './components/Errorb'
+import ClickCounter from './components/ClickCounter'
+import HoverCounter from './components/HoverCounter'
 function App() {
   return (
     <div className="App">
-       <ForwadPar></ForwadPar>
+      <Errorb>
+      <ClickCounter></ClickCounter>
+      <HoverCounter></HoverCounter>
+      </Errorb>
     </div>
   );
 }
