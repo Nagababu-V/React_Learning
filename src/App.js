@@ -27,13 +27,19 @@ import Hero from './components/Hero'
 import Errorb from './components/Errorb'
 import ClickCounter from './components/ClickCounter'
 import HoverCounter from './components/HoverCounter'
+import ClickCounter2 from './components/ClickCounter2'
+import User from './components/User'
+import Counter2 from './components/Counter2'
+import ComponentC from './components/ComponentC'
+import {UserProvider} from './components/UserContext';
+import Input from './components/Input'
 function App() {
   return (
     <div className="App">
-      <Errorb>
-      <ClickCounter></ClickCounter>
-      <HoverCounter></HoverCounter>
-      </Errorb>
+      {/* provide the value to contex provider function*/}
+{/*} <UserProvider value={"Nagababu"} >*/}<ComponentC/>
+    <Input></Input>
+    <FocusInput></FocusInput>
     </div>
   );
 }
